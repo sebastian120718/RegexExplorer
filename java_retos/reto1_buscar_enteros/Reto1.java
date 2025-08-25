@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class Reto1 {
     public static void main(String[] args) {
-        String texto = "En 2023, había 15 estudiantes y 3 profesores.";
+        String texto = "En 1945, ocurrio la 2 guerra mundial llevandonos a hoy en dia al 2025, eso sin antes haber ocurrido una pandemia en 2020.";
         // Expresión regular para enteros (positivos y negativos)
         String patron = "-?\\b\\d+\\b";
         Pattern pattern = Pattern.compile(patron);
