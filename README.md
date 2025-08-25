@@ -35,3 +35,34 @@ Cada subcarpeta de reto incluye:
 5. Ejecuta el código y observa los resultados.
 
 Estos ejercicios son ideales para estudiantes, docentes o cualquier persona interesada en mejorar sus habilidades con expresiones regulares en Python y Java.
+  
+## ¿Cómo ejecutar los retos?
+
+### Python
+Puedes ejecutar los archivos `.py` desde la terminal de **bash** o **PowerShell** así:
+
+**Bash o PowerShell:**
+```bash
+python ruta/al/archivo.py
+```
+Ejemplo:
+```bash
+python python_retos/reto1_buscar_enteros/reto1.py
+```
+
+### Java
+Para ejecutar los archivos `.java`, primero compílalos y luego ejecútalos:
+
+**Bash:**
+```bash
+javac java_retos/reto1_buscar_enteros/Reto1.java
+java -cp . java_retos.reto1_buscar_enteros.Reto1
+```
+
+**PowerShell:**
+```powershell
+javac java_retos\reto1_buscar_enteros\Reto1.java
+java -cp . java_retos.reto1_buscar_enteros.Reto1
+```
+
+Reemplaza el nombre y la ruta según el reto que quieras ejecutar.
