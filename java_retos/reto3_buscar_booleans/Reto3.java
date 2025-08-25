@@ -9,9 +9,9 @@ import java.util.regex.*;
 
 public class Reto3 {
     public static void main(String[] args) {
-        String texto = "La respuesta es True, pero a veces es False.";
+        String texto = "en un proyecto integrador tengo que usar los booleanos and,or,not como tambien los True y False.";
         // Expresión regular para booleanos (True o False, case-insensitive)
-        String patron = "\\b(True|False)\\b";
+        String patron = "\\b(True|False|and|or|not)\\b";
         Pattern pattern = Pattern.compile(patron, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(texto);
         System.out.print("Booleanos encontrados: ");
