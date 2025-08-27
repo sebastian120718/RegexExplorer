@@ -1,5 +1,5 @@
 import re
-texto=('Mi edad es -20 y mi hermano tiene 15.   El valor de Pi es 3.1416, y la temperatura promedio es -2.5 grados.   Hoy es True que estoy feliz, pero False que estoy cansado.   Mi nombre es "Matheo" y mi hobby es "Programar en Python".   Tengo varias listas: [1, 2, 3], [10,20], y también una lista negativa [-5, -10, -15].')
+texto=(input("escribe un texto entre estas ' ':"))
 
 patron_entero = r"-?\b\d+\b"
 enteros = re.findall(patron_entero, texto)
